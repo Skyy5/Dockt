@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0086926D183C816600E55F86 /* CKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086926C183C816600E55F86 /* CKAppDelegate.m */; };
+		00869270183C82B200E55F86 /* CKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0086926F183C82B200E55F86 /* CKViewController.m */; };
+		00869273183C834100E55F86 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00869272183C834100E55F86 /* CKCalendarView.m */; };
 		B37E14B3181F8A05001AA6B7 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B37E14B2181F8A05001AA6B7 /* TableView.m */; };
 		B37E14B718203508001AA6B7 /* TableViewDragAddNew.m in Sources */ = {isa = PBXBuildFile; fileRef = B37E14B618203508001AA6B7 /* TableViewDragAddNew.m */; };
 		B3AA214A181C7C7D00DC5C9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AA2149181C7C7D00DC5C9A /* Foundation.framework */; };
@@ -41,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0086926B183C816600E55F86 /* CKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKAppDelegate.h; path = "dockt-test/CKAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		0086926C183C816600E55F86 /* CKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKAppDelegate.m; path = "dockt-test/CKAppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		0086926E183C82B200E55F86 /* CKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKViewController.h; path = "dockt-test/CKViewController.h"; sourceTree = SOURCE_ROOT; };
+		0086926F183C82B200E55F86 /* CKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKViewController.m; path = "dockt-test/CKViewController.m"; sourceTree = SOURCE_ROOT; };
+		00869271183C834100E55F86 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKCalendarView.h; path = "dockt-test/CKCalendarView.h"; sourceTree = SOURCE_ROOT; };
+		00869272183C834100E55F86 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKCalendarView.m; path = "dockt-test/CKCalendarView.m"; sourceTree = SOURCE_ROOT; };
 		B37E14B1181F8A05001AA6B7 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
 		B37E14B2181F8A05001AA6B7 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
 		B37E14B4181F8A89001AA6B7 /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
@@ -137,6 +146,12 @@
 			children = (
 				B3AA2158181C7C7D00DC5C9A /* AppDelegate.h */,
 				B3AA2159181C7C7D00DC5C9A /* AppDelegate.m */,
+				0086926B183C816600E55F86 /* CKAppDelegate.h */,
+				0086926C183C816600E55F86 /* CKAppDelegate.m */,
+				0086926E183C82B200E55F86 /* CKViewController.h */,
+				00869271183C834100E55F86 /* CKCalendarView.h */,
+				00869272183C834100E55F86 /* CKCalendarView.m */,
+				0086926F183C82B200E55F86 /* CKViewController.m */,
 				B3AA215B181C7C7D00DC5C9A /* Main_iPhone.storyboard */,
 				B3AA215E181C7C7D00DC5C9A /* Main_iPad.storyboard */,
 				B3AA2161181C7C7D00DC5C9A /* ViewController.h */,
@@ -291,8 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00869270183C82B200E55F86 /* CKViewController.m in Sources */,
 				B3AA2186181C812F00DC5C9A /* Task.m in Sources */,
 				B3AA2163181C7C7D00DC5C9A /* ViewController.m in Sources */,
+				00869273183C834100E55F86 /* CKCalendarView.m in Sources */,
+				0086926D183C816600E55F86 /* CKAppDelegate.m in Sources */,
 				B3AA215A181C7C7D00DC5C9A /* AppDelegate.m in Sources */,
 				B37E14B3181F8A05001AA6B7 /* TableView.m in Sources */,
 				B37E14B718203508001AA6B7 /* TableViewDragAddNew.m in Sources */,
